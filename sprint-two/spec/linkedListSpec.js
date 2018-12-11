@@ -23,6 +23,7 @@ describe('linkedList', function() {
     expect(linkedList.tail.value).to.equal(5);
   });
 
+  // Additional test
   it('should not designate a new head when new nodes are added', function() {
     linkedList.addToTail(4);
     expect(linkedList.head.value).to.equal(4);
